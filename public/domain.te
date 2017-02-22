@@ -905,6 +905,7 @@ neverallow {
   -appdomain
   -installd
   -uncrypt  # TODO: see if we can remove
+  -zygote   # Needed for MagicCode; can't be moved to MIPS specific code.
 } app_data_file:lnk_file read;
 
 neverallow {
